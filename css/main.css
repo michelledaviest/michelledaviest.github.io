@@ -16,6 +16,10 @@ body { margin: 60px auto; width: 70%; }
   display: table;
 } 
 
+img {
+  float: left;
+}
+
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
