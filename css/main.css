@@ -15,45 +15,52 @@ img {
 
 a { 
 	text-decoration: none; 
-	color: #00ccff; 
+	color: #0188a9; 
 }
 
 a:hover { 
 	text-decoration: underline; 
-	color: #00a3cc; 
 }
 
 
 h1, h2, h3, h4, p, ul { 
-	font-family: 'Gentium Book Basic'; 
-	 
+	font-family: 'Gentium Book Basic';  
+	line-height: 1.25;
 }
 
 p, ul { 
-	font-size: 1.125em; font-family: 'Gentium Book Basic'; line-height: 1.25em; color: #333; }
+	font-size: 1.25em; 
+	color: #333; 
+}
 
 h1, .h1 {
-  font-size: 2rem;
-  line-height: 1.25;
-
+	font-size: 3rem;
 }
  
 h2, .h2 {
-  font-size: 1.6rem;
-  line-height: 1.25;
-   }
+	font-size: 2.5rem;
+}
   
-h3 { font-size: 1.4em;   
-	line-height: 1.25;
-	 }
+h3. .h3 { 
+	font-size: 2em;   
+}
 
-h4 { font-size: 1.2em; 
-	line-height: 1.25;
-	 }
+h4, .h4 { 
+	font-size: 1.5em; 
+}
 
+nav ul, footer ul { 
+	font-size: 1em; 
+	font-family: 'Gentium Book Basic'; 
+	padding: 0px; 
+	list-style: none; 
+	font-weight: bold; 
+}
 
-nav ul, footer ul { font-size: 1em; font-family: 'Gentium Book Basic'; padding: 0px; list-style: none; font-weight: bold; }
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+nav ul li, footer ul li { 
+	display: inline; 
+	margin-right: 20px; 
+}
 
 footer { 
 	border-top: 1px solid #d5d5d5; 
@@ -67,6 +74,10 @@ ul.posts {
 	margin: 20px auto 40px; 
 	font-size: 1.125em; 
 	line-height: 1.25em;
-	font-family: 'Gentium Book Basic';}
-ul.posts li { list-style: none; }
+	font-family: 'Gentium Book Basic';
+}
+
+ul.posts li { 
+	list-style: none; 
+}
 
