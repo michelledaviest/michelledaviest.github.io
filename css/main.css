@@ -1,44 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
 
 body {
-  margin: 60px auto; 
-  width: 70%;
-  font-size: 100%;
-  line-height: 1.5;
-  font-weight: 400;
-  font-family: 'Gentium Book Basic';
- }
+	margin: 60px auto; 
+	width: 70%;
+	font-size: 100%;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: 'Gentium Book Basic';
+}
   
-
 img {
   float: left;
 }
 
-a { text-decoration: none; color: #00ccff; }
-a:hover { text-decoration: underline; color: #00a3cc; }
+a { 
+	text-decoration: none; 
+	color: #00ccff; 
+}
 
-p, ul { font-size: 1.125em; font-family: 'Gentium Book Basic'; line-height: 1.25em; color: #333; }
+a:hover { 
+	text-decoration: underline; 
+	color: #00a3cc; 
+}
 
-h1, h2, h3, h4 { font-family: 'Gentium Book Basic'; }
+
+h1, h2, h3, h4, p, ul { 
+	font-family: 'Gentium Book Basic'; 
+	 
+}
+
+p, ul { 
+	font-size: 1.125em; font-family: 'Gentium Book Basic'; line-height: 1.25em; color: #333; }
 
 h1, .h1 {
   font-size: 2rem;
   line-height: 1.25;
-  font-weight: 400; 
+
 }
  
 h2, .h2 {
   font-size: 1.6rem;
   line-height: 1.25;
-  font-weight: 400; }
+   }
   
 h3 { font-size: 1.4em;   
 	line-height: 1.25;
-	font-weight: 400; }
+	 }
 
 h4 { font-size: 1.2em; 
 	line-height: 1.25;
-	font-weight: 400; }
+	 }
 
 
 nav ul, footer ul { font-size: 1em; font-family: 'Gentium Book Basic'; padding: 0px; list-style: none; font-weight: bold; }
