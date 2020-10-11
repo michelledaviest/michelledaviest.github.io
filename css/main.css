@@ -1,35 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
 
-body { margin: 60px auto; width: 70%; }
+body {
+  margin: 60px auto; 
+  width: 70%;
+  font-size: 100%;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Gentium Book Basic';
+ }
+  
 
 img {
   float: left;
 }
 
-a { text-decoration: none; color: #555; }
-a:hover { text-decoration: underline; }
+a { text-decoration: none; color: #00ccff; }
+a:hover { text-decoration: underline; color: #00a3cc; }
 
-p, ul { font-size: 1.25em; line-height: 1.4em; color: #333; }
+p, ul { font-size: 1.125em; font-family: 'Gentium Book Basic'; line-height: 1.25em; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Gentium Book Basic'; }
-h1 { font-size: 3em;  }
-h2 { font-size: 2.5em; }
-h3 { font-size: 2.0em; }
-h4 { font-size: 1.5em; }
 
-nav ul, footer ul { font-size: 1.15em; font-family: 'Gentium Book Basic'; padding: 0px; list-style: none; font-weight: bold; }
+h1, .h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 400; 
+}
+ 
+h2, .h2 {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  font-weight: 400; }
+  
+h3 { font-size: 1.4em;   
+	line-height: 1.25;
+	font-weight: 400; }
+
+h4 { font-size: 1.2em; 
+	line-height: 1.25;
+	font-weight: 400; }
+
+
+nav ul, footer ul { font-size: 1em; font-family: 'Gentium Book Basic'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+footer { 
+	border-top: 1px solid #d5d5d5; 
+	font-size: .8em; 
+	line-height: 1em;
+	font-family: 'Gentium Book Basic';
+}
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.25em; }
+ul.posts { 
+	margin: 20px auto 40px; 
+	font-size: 1.125em; 
+	line-height: 1.25em;
+	font-family: 'Gentium Book Basic';}
 ul.posts li { list-style: none; }
 
-/* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 2.5em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Gentium Book Basic'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
