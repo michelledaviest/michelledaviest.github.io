@@ -5,7 +5,6 @@ body {
 	width: 70%;
 	font-size: 100%;
 	line-height: 1.5;
-	font-weight: 400;
 	font-family: 'Gentium Book Basic';
 }
   
@@ -23,13 +22,13 @@ a:hover {
 }
 
 
-h1, h2, h3, h4, p, ul { 
+h1, h2, h3, h4, p, ul, ol { 
 	font-family: 'Gentium Book Basic';  
 	line-height: 1.25;
 }
 
 p, ul { 
-	font-size: 1.25em; 
+	font-size: 1.25rem; 
 	color: #333; 
 }
 
@@ -42,15 +41,15 @@ h2, .h2 {
 }
   
 h3. .h3 { 
-	font-size: 2em;   
+	font-size: 2rem;   
 }
 
 h4, .h4 { 
-	font-size: 1.5em; 
+	font-size: 1.5rem; 
 }
 
 nav ul, footer ul { 
-	font-size: 1.25em; 
+	font-size: 1.25rem; 
 	font-family: 'Gentium Book Basic'; 
 	padding: 0px; 
 	list-style: none; 
@@ -62,18 +61,22 @@ nav ul li, footer ul li {
 	margin-right: 20px; 
 }
 
+li {
+	margin: 10px 0; 
+}
+ 
 footer { 
 	border-top: 1px solid #d5d5d5; 
-	font-size: .8em; 
-	line-height: 1em;
+	font-size: 0.8rem; 
+	line-height: 1rem;
 	font-family: 'Gentium Book Basic';
 }
 
 /* Blog */
 ul.posts { 
 	margin: 20px auto 40px; 
-	font-size: 1.25em; 
-	line-height: 1.25em;
+	font-size: 1.25rem; 
+	line-height: 1.25rem;
 	font-family: 'Gentium Book Basic';
 }
 
