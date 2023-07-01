@@ -29,7 +29,10 @@ title: Michelle Thalakottur
 	<h2>About Me</h2>
 	
 	<p>
-		Hi there! I'm Michelle and I'm excited about Programming Languages and Compilers research. I'm currently working on Static Analysis and WASM with Professors Frank Tip and Amal Ahmed. In the past, I have worked on Compiler Generation and Data Flow Analysis with Professor Uday Khedker at IIT Bombay. I have been active in STEM and Research Outreach during my undergrad and am invested in making research more accessible for underrepresented students and students from disconnected undergrad programs. If you want to talk about PL, outreach or research in general, feel free to reach out to me! 
+		Hi there! I'm Michelle and I'm excited about Programming Languages and Compilers research. Most of my current work revolves around WebAssembly where I explore static analysis over WebAssembly, using WebAssembly as a compliation target from richly typed languages, and think about interoperation between WebAssembly and various host languages, the most popular one being Javascript. I do most of my work with my advisors at Northeastern - Amal Ahmed and Frank Tip. 
+	</p>
+	<p>		
+		Before my PhD, I worked on Compiler Generation and Data Flow Analysis with Uday Khedker at IIT Bombay. I have also spent a non-trivial amount of my time in these past four years working on making research more accessible to undergrad students and building community within Northeastern's Computer Science college. 
 	</p> 
 
 </div>
@@ -39,12 +42,22 @@ title: Michelle Thalakottur
 	<h2>News</h2>
 
 	<ul>
-		<li>2021-06-27: I attended OPLSS2022!</li> 
-		<li>2021-06-27: I presented work on Wimpl at the PAW workshop at ECOOP!</li> 
-		<li>2021-06-27: I completed my undergraduate degree!</li> 		
-		<li>2021-03-30: I will be starting my PhD this Fall, advised by Professors <a href="https://www.franktip.org/">Frank Tip</a> and <a href="http://www.ccs.neu.edu/home/amal/">Amal Ahmed</a> at Northeastern University!</li>
-		<li>2020-08-23: I attended <a href="https://icfp20.sigplan.org/home/PLMW-icfp-2020?track=PLMW%20%40%20ICFP%20">PLMW@ICFP</a>!</li>
-		<li>2020-06-01: I started my internship with Professor Khedker!</li>
+		
+		<li><em>2023-06-25:</em> Our <a href="https://michelledaviest.github.io/files/papers/toughcall-issta23.pdf">ToughCall paper</a> was accepted for publication at ISSTA2023! See you in Seattle in July :)</li>
+		
+		<li><em>2023-03-05:</em> I was invited to be a part of the 2023 <a href="https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/23101">WebAssembly Dagstuhl Seminar</a>. It was excellent :)</li>
+		
+		<li><em>2022-06-27:</em> I was awarded a Fellowship Grant to attend <a href="https://www.cs.uoregon.edu/research/summerschool/summer22/">OPLSS2022</a></li> 
+		
+		<li><em>2022-06-27:</em> I presented work on Wimpl at the PAW workshop at ECOOP 2022.</li> 
+		
+		<li><em>2021-06-27:</em> I completed my undergraduate degree!</li> 
+		
+		<li><em>2021-03-30:</em> I will be starting my PhD this Fall, advised by Professors <a href="https://www.franktip.org/">Frank Tip</a> and <a href="http://www.ccs.neu.edu/home/amal/">Amal Ahmed</a> at Northeastern University!</li>
+		
+		<li><em>2020-08-23:</em> I attended <a href="https://icfp20.sigplan.org/home/PLMW-icfp-2020?track=PLMW%20%40%20ICFP%20">PLMW@ICFP20</a>!</li>
+		
+		<li><em>2020-06-01:</em> I did a sumemr internship with Professor Khedker.</li>
 
 	</ul> 
 
@@ -54,7 +67,16 @@ title: Michelle Thalakottur
 
 	<h2>Research</h2>
 
-	<p>I am currently working on WebAssembly and Static Analysis for WebAssembly. For my undergrad project, I worked on formalizing the translations of a compiler at IITB called <a href="https://www.cse.iitb.ac.in/~uday/sclp-web/">SCLP</a> and generating code from these specs. We did some super cool things during this project and we're currently writing a paper about our work. In the summer of 2020, I worked on the problem of efficiently storing and operating on an incrementally discovered sparse family of sets, in order to make different analyses in Data Flow Analysis more scalable. During the project I designed a lattice-based data structure that I had a lot of fun thinking about. The summer before that I visited IIT Patna and worked on problems in Dimensionality Reduction with Professor Jimson Mathew's lab. We were interested in finding ways to translate Machine Learning research to real-world applications by extracting meaningful information from surplus data and finding ways to adapt Dimensionality Reduction algorithms to semi-supervised settings.</p> 
+	<p>All of my work during my PhD (so far) has been on WebAssembly. Some of this work has been towards static analysis of WebAssembly binaries. Our ISSTA23 <a href="https://michelledaviest.github.io/files/papers/toughcall-issta23.pdf">ToughCall</a> paper explores various challenges you might encounter during call graph construction over WebAssembly binaries. I've also spent sometime working on RichWasm, a semantic IR from richly typed source languages like ML and L3, to Wasm. I specifically worked on the compiler from RichWasm to Wasm. These days, I spend a lot of time thinking about real world interaction between JS applications and WebAssembly. 
+	</p>
+	
+	<p>
+	For my undergrad thesis project, I worked on formalizing the translations of a compiler at IITB called <a href="https://www.cse.iitb.ac.in/~uday/sclp-web/">SCLP</a> and generating code from these specs. This work is being <a href="https://www.cse.iitb.ac.in/~uday/sclp-web/future.html">carried forward</a> by other students working with Professor Khedker, and is work that I am very excited about. 
+	
+	In the summer of 2020, I worked on the problem of efficiently storing and operating on an incrementally discovered sparse family of sets, in order to make different analyses in Data Flow Analysis more scalable.
+	
+	The summer before that I visited IIT Patna and worked on problems in Dimensionality Reduction with Professor Jimson Mathew's lab.
+	</p> 
 
 </div>
 
@@ -64,22 +86,30 @@ title: Michelle Thalakottur
 
 	<ul>
 
-	<li style = "margin-bottom:1em"><a href="https://link.springer.com/chapter/10.1007/978-3-030-36802-9_22" target="_blank">Semi-supervised Regularized Coplanar Discriminant Analysis</a><br>
-		Rakesh Kumar Sanodiya, Michelle Davies Thalakottur, Jimson Mathew, Matloob Khushi<br>
+<li style = "margin-bottom:1em">
+<strong>That’s a Tough Call: Studying the Challenges of Call Graph Construction for WebAssembly</strong>
+ 2023<br>
+		Daniel Lehmann, <u>Michelle Thalakottur</u>, Frank Tip, Michael Pradel<br>
+		In <i>Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis</i> (ISSTA23)<br>
+	[<a href="https://michelledaviest.github.io/files/papers/toughcall-issta23.pdf">paper</a>][<a href="https://github.com/sola-st/wasm-call-graphs">dataset and code</a>][<a href="https://doi.org/10.1145/3597926.3598104">DOI</a>]
+	</li>
+
+	<li style = "margin-bottom:1em"><strong>Semi-supervised Regularized Coplanar Discriminant Analysis</strong> 2019<br>
+		Rakesh Kumar Sanodiya, <u>Michelle Davies Thalakottur</u>, Jimson Mathew, Matloob Khushi<br>
 		In <i>Proceedings of the International Conference on Neural Information Processing (ICONIP)</i><br>
-		Sydney, Australia, December 2019
+		[<a href="https://link.springer.com/chapter/10.1007/978-3-030-36802-9_22">paper</a>]
 	</li>
 
-	<li style = "margin-bottom:1em"><a href="https://ieeexplore.ieee.org/document/8790027" target="_blank">Multi-objective Approach for Semi-Supervised Discriminant Analysis with Relative Distance</a><br>
-		Rakesh Kumar Sanodiya, Sriparna Saha, Jimson Mathew, Michelle Davies Thalakottur, Utkarshinee Aadya <br>
+	<li style = "margin-bottom:1em"><strong>Multi-objective Approach for Semi-Supervised Discriminant Analysis with Relative Distance</strong> 2019<br>
+		Rakesh Kumar Sanodiya, Sriparna Saha, Jimson Mathew, <u>Michelle Davies Thalakottur</u>, Utkarshinee Aadya <br>
 		In <i>Proceedings of the 2019 IEEE Congress on Evolutionary Computation (CEC)</i><br>
-		Wellington, New Zealand, June 2019
+		[<a href="https://ieeexplore.ieee.org/document/8790027">paper</a>]
 	</li>
 
-	<li style = "margin-bottom:1em"><a href="https://ieeexplore.ieee.org/document/8675725" target="_blank">A New Transfer Learning Algorithm in Semi-supervised Setting</a><br>
-		Rakesh Kumar Sanodiya, Jimson Mathew, Sriparna Saha, Michelle Davies Thalakottur<br>
+	<li style = "margin-bottom:1em"><strong>A New Transfer Learning Algorithm in Semi-supervised Setting</strong> 2019<br>
+		Rakesh Kumar Sanodiya, Jimson Mathew, Sriparna Saha, <u>Michelle Davies Thalakottur</u><br>
 		In <i>IEEE Access, vol. 7, pp. 42956-42967, 2019.</i><br>
-		February 2019
+		[<a href="https://ieeexplore.ieee.org/document/8675725">paper</a>]
 	</li>
 
 	</ul>
