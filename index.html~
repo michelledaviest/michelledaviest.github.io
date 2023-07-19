@@ -43,7 +43,7 @@ title: Michelle Thalakottur
 
 	<ul>
 		
-		<li><em>2023-06-25</em> : Our <a href="https://michelledaviest.github.io/files/papers/toughcall-issta23.pdf">ToughCall paper</a> was accepted for publication at ISSTA2023! See you in Seattle in July :)</li>
+		<li><em>2023-06-25</em> : Our <a href="https://michelledaviest.github.io/files/papers/toughcall/toughcall-issta23-paper.pdf">ToughCall paper</a> was accepted for publication at ISSTA2023! See you in Seattle in July :)</li>
 		
 		<li><em>2023-03-05</em> : I was invited to be a part of the 2023 <a href="https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/23101">WebAssembly Dagstuhl Seminar</a>. It was excellent :)</li>
 		
@@ -67,7 +67,7 @@ title: Michelle Thalakottur
 
 	<h2>Research</h2>
 
-	<p>All of my work during my PhD (so far) has been on WebAssembly. Some of this work has been towards static analysis of WebAssembly binaries. Our ISSTA23 <a href="https://michelledaviest.github.io/files/papers/toughcall-issta23.pdf">ToughCall</a> paper explores various challenges you might encounter during call graph construction over WebAssembly binaries. I've also spent sometime working on RichWasm, a semantic IR from richly typed source languages like ML and L3, to Wasm. I specifically worked on the compiler from RichWasm to Wasm. These days, I spend a lot of time thinking about real world interaction between JS applications and WebAssembly. 
+	<p>All of my work during my PhD (so far) has been on WebAssembly. Some of this work has been towards static analysis of WebAssembly binaries. Our ISSTA23 <a href="https://michelledaviest.github.io/files/papers/toughcall/toughcall-issta23-paper.pdf">ToughCall</a> paper explores various challenges you might encounter during call graph construction over WebAssembly binaries. I've also spent sometime working on RichWasm, a semantic IR from richly typed source languages like ML and L3, to Wasm. I specifically worked on the compiler from RichWasm to Wasm. These days, I spend a lot of time thinking about real world interaction between JS applications and WebAssembly. 
 	</p>
 	
 	<p>
@@ -87,11 +87,12 @@ title: Michelle Thalakottur
 	<ul>
 
 <li style = "margin-bottom:1em">
-<strong>That’s a Tough Call: Studying the Challenges of Call Graph Construction for WebAssembly</strong>
+<strong>&#127942; That’s a Tough Call: Studying the Challenges of Call Graph Construction for WebAssembly</strong>
  2023<br>
 		Daniel Lehmann, <u>Michelle Thalakottur</u>, Frank Tip, Michael Pradel<br>
 		In <i>Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis</i> (ISSTA23)<br>
-	[<a href="https://michelledaviest.github.io/files/papers/toughcall-issta23.pdf">PDF</a>][<a href="https://github.com/sola-st/wasm-call-graphs">Repo</a>][<a href="https://doi.org/10.1145/3597926.3598104">DOI</a>]
+	Won an ACM SIGSOFT Distinguished Artifact Award<br>
+	[<a href="https://michelledaviest.github.io/files/papers/toughcall/ToughCall-ISSTA23-slides.pdf">Slides</a>][<a href="https://michelledaviest.github.io/files/papers/toughcall/toughcall-issta23-paper.pdf">PDF</a>][<a href="https://github.com/sola-st/wasm-call-graphs">Repo</a>][<a href="https://doi.org/10.1145/3597926.3598104">DOI</a>]
 	</li>
 
 	<li style = "margin-bottom:1em"><strong>Semi-supervised Regularized Coplanar Discriminant Analysis</strong> 2019<br>
